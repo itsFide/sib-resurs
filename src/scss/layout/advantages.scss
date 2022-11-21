@@ -1,0 +1,72 @@
+.advantages {
+    margin-top: 35px;
+    // .advantages__inner
+
+    &__inner {
+        padding-left: 35px;
+    }
+
+    // .advantages__items
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    // .advantages__item
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    // .advantages__item-img
+
+    &__item-img {
+        display: flex;
+        justify-content: center;
+        width: 65px;
+        height: 65px;
+        & img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // .advantages__item-name
+
+    &__item-name {
+        text-align: center;
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 107.9%;
+        /* or 16px */
+
+        letter-spacing: 0.015em;
+
+        color: #10496D
+    }
+}
+.advantages-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 107.9%;
+    /* identical to box height, or 35px */
+
+    letter-spacing: 0.015em;
+
+    color: #10496D;
+}

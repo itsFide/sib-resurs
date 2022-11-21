@@ -1,0 +1,63 @@
+.iso {
+    padding-top: 75px;
+    // .iso__inner
+    padding-bottom: 71px;
+    &__inner {
+    }
+
+    // .iso__items
+
+    &__items {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .iso__item
+
+    &__item {
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    // .iso__item-title
+
+    &__item-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 107.9%;
+        /* or 17px */
+        text-align: center;
+        letter-spacing: 0.015em;
+
+        color: #449AD0;
+    }
+
+    // .iso__item-images
+
+    &__item-images {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    // .iso__item-name
+
+    &__item-name {
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 107.9%;
+        /* or 17px */
+        text-align: center;
+        letter-spacing: 0.015em;
+
+        color: #000000;
+
+    }
+}

@@ -13,11 +13,6 @@
 
 // Общие параметры, шаблоны(заготовки) и вспомагательные классы =======================================================================================================================
 @import 'config/base';
-
-// Подключение стилей отдельных блоков и секций =======================================================================================================================
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/main-page/intro';
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,3 +21,24 @@ body{
     margin: auto;
     padding: 0 15px;
 }
+.container-2{
+    max-width: 1145px;
+    margin: auto;
+    padding: 0 15px;
+}
+// Подключение стилей отдельных блоков и секций =======================================================================================================================
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/main-page/intro';
+@import 'layout/main-page/products-list';
+@import 'layout/main-page/select-us';
+@import 'layout/main-page/iso';
+@import 'layout/page-about/about';
+@import 'layout/advantages';
+@import 'layout/single-product/single-products';
+@import 'layout/single-industry/single-industry';
+@import 'layout/page-partners/partners';
+@import 'layout/page-news/news';
+@import 'layout/page-blog/blog';
+@import 'layout/page-delivery/delivery';
+@import 'layout/privacy-policy/policy';

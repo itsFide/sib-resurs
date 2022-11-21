@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
   @@include('html/head.html', {
-    'title': 'Главная'
+    'title': 'О нас'
   })
   <body>
     @@include('html/header.html')
-    @@include('html/page-main/intro.html')
-    @@include('html/page-main/products-list.html')
-    @@include('html/page-main/select-us.html')
+    @@include('html/page-about/about.html')
+    @@include('html/advantages.html',{
+        "container" : "container"
+    })
     @@include('html/page-main/iso.html')
     @@include('html/footer.html')
     @@include('html/script.html')

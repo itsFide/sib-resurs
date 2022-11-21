@@ -1,0 +1,59 @@
+.about-us {
+    padding-top: 85px;
+    // .about-us__inner
+
+    &__inner {
+    }
+
+    // .about-us__title
+
+    &__title {  
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 107.9%;
+        /* identical to box height, or 35px */
+
+        letter-spacing: 0.015em;
+
+        color: #000000;
+
+    }
+
+    // .about-us__descr
+
+    &__descr p{
+        font-family: 'Montserrat';
+        margin-top: 25px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 107.9%;
+        /* or 18px */
+
+        letter-spacing: 0.015em;
+
+        color: #000000;
+        & span{
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 107.9%;
+            /* or 18px */
+
+            letter-spacing: 0.015em;
+
+            color: #1484CA;
+
+        }
+        
+    }
+
+    // .about-us__img
+
+    &__img {
+        float: right;
+        margin-top: -25px;
+        margin-left: 35px;
+    }
+}

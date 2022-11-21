@@ -1,0 +1,44 @@
+.blog-news{
+    .news{
+        &__item{
+            position: relative;
+            background-color: #6BB8E9;
+            z-index: 1;
+            &-title{
+                z-index: 2;
+                position: relative;
+            }
+            &-descr{
+                z-index: 2;
+                position: relative;
+            }
+        }
+        &__img-bg{
+            width: 471px;
+            height: 100%;
+            right: 0;
+            top: 0;
+            border-radius: 0 30px 30px 0;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+}
+.blog__item-btn{
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    margin-top: 40px;
+    letter-spacing: 0.005em;
+
+    color: #323232;
+    padding: 7px 27px;
+    background-color: #fff;
+    border-radius: 27px;
+
+
+}

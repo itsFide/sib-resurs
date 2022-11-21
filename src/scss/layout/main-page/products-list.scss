@@ -1,0 +1,98 @@
+.product-list {
+    padding-top: 75px;
+    // .product-list__inner
+
+    &__inner {
+    }
+
+    // .product-list__items
+
+    &__items {
+        display: flex;
+    }
+
+    // .product-list__item
+
+    &__item {
+        background: linear-gradient(180deg, #EEEEEE 0%, #BFDDF0 100%);
+        border: 1px solid #8E8E8E;
+        border-radius: 17px;
+        // padding: 20px;
+        margin-right: 30px;
+        &:nth-child(1){
+            width: 209px;
+        }
+        &:nth-child(2){
+            width: 224px;
+        }
+        &:nth-child(3){
+            width: 315px;
+        }
+        &:nth-child(4){
+            width: 179px;
+            & .product-list__item-link a{
+                line-height: 175%;
+            }
+        }
+        &:nth-child(5){
+            width: 210px;
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+        & a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 197.4%;
+            /* or 36px */
+            margin-bottom: 30px;
+            letter-spacing: 0.015em;
+
+            color: #000000;
+
+        }
+        &-link{
+            padding: 20px;
+            border-bottom: 1px solid #A6A6A6;
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+    }
+
+    // .product-list__item-first
+
+    &__item-first {
+    }
+    &__item-3{
+        .product-list__item-link{
+            padding: 18px 20px;
+        }
+        .product-list__item-link a {
+            line-height: 109%;
+        }
+    }
+    &__item-line{
+        background: #D9D9D9;
+        border-radius: 20px;
+        width: 150px;
+        height: 4px;
+        margin: 15px auto;
+        // border-bottom:1px solid #A6A6A6;
+    }
+    // .product-list__item-row-1
+
+    &__item-row-1 {
+        & .product-list__item-link:last-child{
+            border-bottom: 1px solid #A6A6A6;
+        }
+    }
+
+    // .product-list__item-row-2
+
+    &__item-row-2 {
+        border-top:1px solid #A6A6A6;
+    }
+}

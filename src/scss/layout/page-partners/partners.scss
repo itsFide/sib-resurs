@@ -1,0 +1,21 @@
+.partners {
+    padding-top: 100px;
+    // .partners__inner
+
+    &__inner {
+    }
+
+    // .partners__items
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    // .partners__item
+
+    &__item {
+    }
+}
