@@ -28,9 +28,9 @@
   "author": "Sergei Chevdar <serj.elessar@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/StarkElessar/gulp-2022/issues"
+    "url": "https://github.com/itsFide/sib-resurs.git"
   },
-  "homepage": "https://github.com/itsFide/sib-resurs.git",
+  "homepage": "https://github.com/itsFide/sib-resurs",
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/polyfill": "^7.12.1",
