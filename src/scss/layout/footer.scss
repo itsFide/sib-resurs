@@ -156,8 +156,12 @@
             cursor: pointer;
             background: #FFFFFF;
             border-radius: 15px;
-            
+            transition: all .3s;
             color: #656565;
+            &:hover{
+                background-color:#1484CA;
+                color: #fff;
+            }
     }
 }
 .footer-col-2 {

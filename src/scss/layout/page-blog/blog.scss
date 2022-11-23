@@ -39,6 +39,10 @@
     padding: 7px 27px;
     background-color: #fff;
     border-radius: 27px;
-
-
+    cursor: pointer;
+    transition: all .3s;
+    &:hover{
+        background: #17618e;
+        color: #fff;
+    }
 }

@@ -16,7 +16,10 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        
+        transition: all .3s;
+        &:hover{
+            color: #106ca5;
+        }
         color: #000000;
         & img{
             margin-right: 11px;
@@ -112,6 +115,11 @@
         letter-spacing: 0.015em;
         cursor: pointer;
         color: #FFFFFF;
+        transition: all .3s;
+        &:hover{
+            background: #106ca5;
+            color: #fff;
+        }
     }
 }
 
