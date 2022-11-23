@@ -395,6 +395,7 @@
 	display: none;
 	position: relative;
 	transition: all 0.3s;
+	cursor: pointer;
 	& span{
 		position: absolute;
 		transition: all .3s;
