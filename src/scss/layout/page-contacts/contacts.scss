@@ -153,12 +153,15 @@
     & .contacts__phone{
         display: flex;
         align-items: center;
+        & img{
+            width: 45px;
+        }
         & a{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
             margin-left: 22px;
-            font-size: 28px;
+            font-size: 22px;
             line-height: 84.9%;
             /* identical to box height, or 24px */
 
@@ -195,7 +198,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 28px;
+        font-size: 22px;
         line-height: 84.9%;
         /* identical to box height, or 24px */
         margin-top: 20px;
@@ -216,7 +219,7 @@
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
-            font-size: 28px;
+            font-size: 22px;
             line-height: 84.9%;
             /* identical to box height, or 24px */
 
