@@ -2,15 +2,21 @@
     .news{
         &__item{
             position: relative;
-            background-color: #6BB8E9;
+            background-color: #0E6499;
             z-index: 1;
             &-title{
                 z-index: 2;
+                font-size: 23px;
                 position: relative;
             }
             &-descr{
                 z-index: 2;
                 position: relative;
+                & p{
+                    font-size: 14px;
+                    margin-top: 15px;
+                    line-height: 21px;
+                }
             }
         }
         &__img-bg{
@@ -29,20 +35,20 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 27px;
     /* identical to box height */
-    margin-top: 40px;
+    margin-top: 18px;
     letter-spacing: 0.005em;
 
     color: #323232;
-    padding: 7px 27px;
+    padding: 10px 22px;
     background-color: #fff;
     border-radius: 27px;
     cursor: pointer;
     transition: all .3s;
     &:hover{
-        background: #17618e;
+        background: #11415e;
         color: #fff;
     }
 }
